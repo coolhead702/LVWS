@@ -10,3 +10,26 @@ h1 {
 p {
  color: #34495e;
 }
+#hero {
+background-color: #fefaf5;
+paddin: 100px 20px
+text-align: center;
+}
+#hero h1 {
+font-size: 3rem;
+color: #2ca350; 
+}
+#hero p { 
+font-size: 1.2rem;
+margin_top: 10px;
+color: #34455e;
+}
+.btn {
+display: inline-block; 
+margin-top: 20px;
+padding: 10px 25px;
+background-color: #2ca350;
+color: white;
+text-decoration: none;
+border radius: 5px;
+}
