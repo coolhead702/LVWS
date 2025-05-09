@@ -1,35 +1,92 @@
 body {
-background-color: #fafafa;
-font-family : Arial, sans-serrif;
-text-align: center;
-margin-top: 100px;
+ background-color; #fefaf5
+ font-family; Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ color: #2ca350;
 }
+
+header {
+ text-align: center;
+ padding: 40x 20px
+ background-color: #fff
+qborder-bottom: 2px solid #eee;
+}
+
 h1 { 
- color: #2c3e50;
+ margin-bottom: 10px;
+ color: #2ca350
 }
+
 p {
- color: #34495e;
+ color: #344955
 }
-#hero {
-background-color: #fefaf5;
-paddin: 100px 20px
-text-align: center;
+
+#navbar {
+ display: flex;
+ justify-content: center;
+ gap: 20px;
+ background-color: #f5f5f5
+ padding: 15px;
 }
-#hero h1 {
-font-size: 3rem;
-color: #2ca350; 
+
+a.nav-link {
+ text-decoration: none;
+ color: #2ca350;
+ font-weight: bold;
 }
-#hero p { 
-font-size: 1.2rem;
-margin_top: 10px;
-color: #34455e;
+
+a.nav-link:hover {
+ color: #1d7f3b;
+ text-decoration: underline;
 }
-.btn {
-display: inline-block; 
-margin-top: 20px;
-padding: 10px 25px;
-background-color: #2ca350;
-color: white;
-text-decoration: none;
-border radius: 5px;
+section {
+ padding: 60px 20px;
+ text-align: center;
 }
+
+#home, #who-we-are {
+ background-color: #fff;
+ margin-bottom: 20px;
+}
+
+#home h2, #who-we-are h2 {
+ font-size: 2em;
+ margin-bottom: 10px;
+ color: #2ca350;
+}
+
+#services {  
+ background-color: #fefaf5;
+ padding: 100px 20px;
+ text_align: center;
+}
+
+#services h2 {
+ font-size: 2rem;
+ color:#2ca350;
+}
+
+#services p {
+ font-size: 1.2rem;
+ margin-top: 10px;
+ color: #344955;
+
+#contactus { 
+ background-color: #f5f5f5;
+ padding: 100px 20px;
+ text-align: center;
+}
+
+#contactus h2 {
+ font-size: 2rem
+ color: #2ca350;
+}
+
+#contactus p,
+#contactus a { 
+ font-size: 1.2rem
+ color: #344955;
+ text-decoration: none;
+}
+
